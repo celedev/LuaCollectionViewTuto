@@ -14,7 +14,7 @@ An iPhone or iPad, with iOS 8 or later, for running the application (alternative
 
 ## How to use this code sample
 
-1. Open the CodeFlow Program document in **CodeFlow**.
+1. Open the CodeFlow Program document *WordsCollection.luapp* in **CodeFlow**.
 2. Open the associated Xcode project from the CodeFlow *Program* menu (or open the project directly in Xcode) and run the application on a device or in the simulator.
 3. In **CodeFlow**, select the device running the application in the `Target` popup menu in the toolbar. The app stops on a breakpoint at the first line of the Lua program.
 4. Click on the `Continue` button in the toolbar (or use the **CodeFlow** debugger for stepping in the program) 
