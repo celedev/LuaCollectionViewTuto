@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2834FA9F26DA4CFDA284FA1F /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD757B5F2E4D899B1261B1 /* libCIMLuaDebugServerIOS.a */; };
+		6B00B261D2764B789BBFB175 /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7CC656A9E433C8DF04841 /* libCIMLuaBindingFoundation.a */; };
+		889661F9E79A4ED2AD192AF7 /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2122D60FAA244FC9EDDA34B /* libCIMLuaBindingUIKit.a */; };
+		92C62F72DE544667A6E98F31 /* libCIMLuaBindingQuartzCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6B74426C3845BCBB115F70 /* libCIMLuaBindingQuartzCore.a */; };
+		A5EE0523901244D5A4D97907 /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2FA6C7657847E1AA5F3CEC /* libCIMLua.a */; };
+		FDB1AC1918DD89F0006DF729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4813316562D5800FF825B /* main.m */; };
+		FDB1AC1C18DD89F0006DF729 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF310B617CE6DC70097D5EB /* CFNetwork.framework */; };
+		FDB1AC1E18DD89F0006DF729 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF4812716562D5800FF825B /* UIKit.framework */; };
+		FDB1AC1F18DD89F0006DF729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF4812916562D5800FF825B /* Foundation.framework */; };
+		FDB1AC2018DD89F0006DF729 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF4812B16562D5800FF825B /* CoreGraphics.framework */; };
+		FDB1AC2118DD89F0006DF729 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF4814B1656363E00FF825B /* MobileCoreServices.framework */; };
+		FDB1AC2218DD89F0006DF729 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5CB7A3165D53560078C68D /* QuartzCore.framework */; };
+		FDB1AC2418DD89F0006DF729 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF4813016562D5800FF825B /* InfoPlist.strings */; };
+		FDB1AC2518DD89F0006DF729 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF4813916562D5800FF825B /* Default.png */; };
+		FDB1AC2618DD89F0006DF729 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF4813B16562D5800FF825B /* Default@2x.png */; };
+		FDB1AC2718DD89F0006DF729 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF4813D16562D5800FF825B /* Default-568h@2x.png */; };
+		FDD2F98F19E6922900AE6DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF4813716562D5800FF825B /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E2FA6C7657847E1AA5F3CEC /* libCIMLua.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLua.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a"; sourceTree = "<absolute>"; };
+		50D7CC656A9E433C8DF04841 /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
+		9B6B74426C3845BCBB115F70 /* libCIMLuaBindingQuartzCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingQuartzCore.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingQuartzCore.a"; sourceTree = "<absolute>"; };
+		C2122D60FAA244FC9EDDA34B /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
+		EFBD757B5F2E4D899B1261B1 /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaDebugServerIOS.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a"; sourceTree = "<absolute>"; };
+		FD5CB7A3165D53560078C68D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FDB1AC2B18DD89F0006DF729 /* CollectionViewTuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewTuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF310B617CE6DC70097D5EB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FDF4812716562D5800FF825B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDF4812916562D5800FF825B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF4812B16562D5800FF825B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF4812F16562D5800FF825B /* CollectionViewTuto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewTuto-Info.plist"; sourceTree = "<group>"; };
+		FDF4813116562D5800FF825B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF4813316562D5800FF825B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF4813516562D5800FF825B /* CollectionViewTuto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionViewTuto-Prefix.pch"; sourceTree = "<group>"; };
+		FDF4813616562D5800FF825B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF4813716562D5800FF825B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF4813916562D5800FF825B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDF4813B16562D5800FF825B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDF4813D16562D5800FF825B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDF4814B1656363E00FF825B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB1AC1B18DD89F0006DF729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB1AC1C18DD89F0006DF729 /* CFNetwork.framework in Frameworks */,
+				FDB1AC1E18DD89F0006DF729 /* UIKit.framework in Frameworks */,
+				FDB1AC1F18DD89F0006DF729 /* Foundation.framework in Frameworks */,
+				FDB1AC2018DD89F0006DF729 /* CoreGraphics.framework in Frameworks */,
+				FDB1AC2118DD89F0006DF729 /* MobileCoreServices.framework in Frameworks */,
+				FDB1AC2218DD89F0006DF729 /* QuartzCore.framework in Frameworks */,
+				A5EE0523901244D5A4D97907 /* libCIMLua.a in Frameworks */,
+				2834FA9F26DA4CFDA284FA1F /* libCIMLuaDebugServerIOS.a in Frameworks */,
+				92C62F72DE544667A6E98F31 /* libCIMLuaBindingQuartzCore.a in Frameworks */,
+				889661F9E79A4ED2AD192AF7 /* libCIMLuaBindingUIKit.a in Frameworks */,
+				6B00B261D2764B789BBFB175 /* libCIMLuaBindingFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF4811816562D5800FF825B = {
+			isa = PBXGroup;
+			children = (
+				FDF4812D16562D5800FF825B /* CollectionViewTuto */,
+				FDF4812616562D5800FF825B /* Frameworks */,
+				FDF4812416562D5800FF825B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF4812416562D5800FF825B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB1AC2B18DD89F0006DF729 /* CollectionViewTuto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF4812616562D5800FF825B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4812716562D5800FF825B /* UIKit.framework */,
+				FDF4812916562D5800FF825B /* Foundation.framework */,
+				FDF4812B16562D5800FF825B /* CoreGraphics.framework */,
+				FD5CB7A3165D53560078C68D /* QuartzCore.framework */,
+				FDF4814B1656363E00FF825B /* MobileCoreServices.framework */,
+				FDF310B617CE6DC70097D5EB /* CFNetwork.framework */,
+				2E2FA6C7657847E1AA5F3CEC /* libCIMLua.a */,
+				EFBD757B5F2E4D899B1261B1 /* libCIMLuaDebugServerIOS.a */,
+				9B6B74426C3845BCBB115F70 /* libCIMLuaBindingQuartzCore.a */,
+				C2122D60FAA244FC9EDDA34B /* libCIMLuaBindingUIKit.a */,
+				50D7CC656A9E433C8DF04841 /* libCIMLuaBindingFoundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF4812D16562D5800FF825B /* CollectionViewTuto */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4813616562D5800FF825B /* AppDelegate.h */,
+				FDF4813716562D5800FF825B /* AppDelegate.m */,
+				FDF4812E16562D5800FF825B /* Supporting Files */,
+			);
+			path = CollectionViewTuto;
+			sourceTree = "<group>";
+		};
+		FDF4812E16562D5800FF825B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF4812F16562D5800FF825B /* CollectionViewTuto-Info.plist */,
+				FDF4813016562D5800FF825B /* InfoPlist.strings */,
+				FDF4813316562D5800FF825B /* main.m */,
+				FDF4813516562D5800FF825B /* CollectionViewTuto-Prefix.pch */,
+				FDF4813916562D5800FF825B /* Default.png */,
+				FDF4813B16562D5800FF825B /* Default@2x.png */,
+				FDF4813D16562D5800FF825B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB1AC1718DD89F0006DF729 /* CollectionViewTuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB1AC2818DD89F0006DF729 /* Build configuration list for PBXNativeTarget "CollectionViewTuto" */;
+			buildPhases = (
+				FDB1AC1818DD89F0006DF729 /* Sources */,
+				FDB1AC1B18DD89F0006DF729 /* Frameworks */,
+				FDB1AC2318DD89F0006DF729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewTuto;
+			productName = LuaCollectionView;
+			productReference = FDB1AC2B18DD89F0006DF729 /* CollectionViewTuto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF4811A16562D5800FF825B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jean-Luc Jumpertz";
+				TargetAttributes = {
+					FDB1AC1718DD89F0006DF729 = {
+						DevelopmentTeam = 7V6VCE4Z4V;
+					};
+				};
+			};
+			buildConfigurationList = FDF4811D16562D5800FF825B /* Build configuration list for PBXProject "CollectionViewTuto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDF4811816562D5800FF825B;
+			productRefGroup = FDF4812416562D5800FF825B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB1AC1718DD89F0006DF729 /* CollectionViewTuto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB1AC2318DD89F0006DF729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB1AC2418DD89F0006DF729 /* InfoPlist.strings in Resources */,
+				FDB1AC2518DD89F0006DF729 /* Default.png in Resources */,
+				FDB1AC2618DD89F0006DF729 /* Default@2x.png in Resources */,
+				FDB1AC2718DD89F0006DF729 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB1AC1818DD89F0006DF729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2F98F19E6922900AE6DFB /* AppDelegate.m in Sources */,
+				FDB1AC1918DD89F0006DF729 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF4813016562D5800FF825B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF4813116562D5800FF825B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB1AC2918DD89F0006DF729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewTuto/CollectionViewTuto-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include\"";
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionViewTuto/CollectionViewTuto-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos\"",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CollectionViewTuto;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDB1AC2A18DD89F0006DF729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewTuto/CollectionViewTuto-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include\"";
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionViewTuto/CollectionViewTuto-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos\"",
+					"\"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CollectionViewTuto;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDF4813F16562D5800FF825B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FDF4814016562D5800FF825B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB1AC2818DD89F0006DF729 /* Build configuration list for PBXNativeTarget "CollectionViewTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB1AC2918DD89F0006DF729 /* Debug */,
+				FDB1AC2A18DD89F0006DF729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF4811D16562D5800FF825B /* Build configuration list for PBXProject "CollectionViewTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF4813F16562D5800FF825B /* Debug */,
+				FDF4814016562D5800FF825B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF4811A16562D5800FF825B /* Project object */;
+}

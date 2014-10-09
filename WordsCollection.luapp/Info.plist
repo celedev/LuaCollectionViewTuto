@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Program Bindings Libs</key>
+	<array>
+		<dict>
+			<key>LibBookmark</key>
+			<data>
+			Ym9va1QEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAARAMAAAQAAAADAwAAAAMAAAUAAAABAQAAVXNlcnMA
+			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5ABMAAAAB
+			AQAAQXBwbGljYXRpb24gU3VwcG9ydAAUAAAAAQEAAGNvbS5jZWxl
+			ZGV2LkNvZGVGbG93CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9T
+			LTguMC1TREsubHVhYmluZGluZ3MAHAAAAAEGAAAQAAAAIAAAADAA
+			AABAAAAAXAAAAHgAAACIAAAACAAAAAQDAABaggIAAAAAAAgAAAAE
+			AwAAqFAGAAAAAAAIAAAABAMAABxRBgAAAAAACAAAAAQDAAAqUQYA
+			AAAAAAgAAAAEAwAA8icOAAAAAAAIAAAABAMAAPQnDgAAAAAACAAA
+			AAQDAADUFyoAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwB
+			AAAcAQAALAEAAAgAAAAABAAAQbnUcBYAAAAYAAAAAQIAAAIAAAAA
+			AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAA
+			AwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vBAAAAAEBAABZb3lvCAAA
+			AAQDAAAAAJq/FAAAAAgAAAAABAAAQbmGL/0AAAAkAAAAAQEAAEM4
+			MTc2RjE5LUQzRDYtMzgzQy1CREIyLUYwQ0RBMTBEN0Y1MBgAAAAB
+			AgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+			AAAAAAEFAADyAAAAAQIAADY1ZGRjNTJhY2I2NjNhYTU0Yzg4NzZm
+			ZGMyZGY4NTIyMDM4MmE1Nzg7MDAwMDAwMDA7MDAwMDAwMDA7MDAw
+			MDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNhbmRib3gucmVh
+			ZC13cml0ZTswMDAwMDAwMTswMTAwMDAwNDswMDAwMDAwMDAwMmEx
+			N2Q0Oy91c2Vycy9qZWFuLWx1Yy9saWJyYXJ5L2FwcGxpY2F0aW9u
+			IHN1cHBvcnQvY29tLmNlbGVkZXYuY29kZWZsb3cvaXBob25lb3Mv
+			aW9zLTguMC1zZGsubHVhYmluZGluZ3MAAADYAAAA/v///wEAAAAA
+			AAAAEQAAAAQQAACoAAAAAAAAAAUQAAA8AQAAAAAAABAQAABwAQAA
+			AAAAAEAQAABgAQAAAAAAAAIgAAA0AgAAAAAAAAUgAACsAQAAAAAA
+			ABAgAAC8AQAAAAAAABEgAADoAQAAAAAAABIgAADIAQAAAAAAABMg
+			AADYAQAAAAAAACAgAAAUAgAAAAAAADAgAABAAgAAAAAAAAHAAACQ
+			AQAAAAAAABHAAAAgAAAAAAAAABLAAACgAQAAAAAAABDQAAAEAAAA
+			AAAAAIDwAABIAgAAAAAAAA==
+			</data>
+			<key>LibDirPath</key>
+			<string>iphoneos</string>
+			<key>LibId</key>
+			<string>apple_sdk_iphoneos8.0</string>
+			<key>LibName</key>
+			<string>iOS</string>
+			<key>LibUrl</key>
+			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/</string>
+		</dict>
+	</array>
+	<key>Program Display Info</key>
+	<dict>
+		<key>LuaAppDocument remote Lua service</key>
+		<string>CollectionViewDemo - Collection Control (iPad Celedev 1)</string>
+		<key>LuaAppDocument-associatedXodeProject</key>
+		<dict>
+			<key>platform</key>
+			<string>iphoneos</string>
+			<key>project</key>
+			<string>CollectionViewTuto.xcodeproj</string>
+			<key>target</key>
+			<string>CollectionViewTuto</string>
+		</dict>
+		<key>LuaAppWindow edited source path</key>
+		<string>CreateController</string>
+		<key>LuaAppWindow frame</key>
+		<string>51 112 1262 765 0 0 1440 877 </string>
+	</dict>
+	<key>Program Format Version</key>
+	<string>0.9</string>
+	<key>Program Groups Order</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>CreateController</string>
+			<string>CollectionController</string>
+			<string>LabelCell</string>
+			<string>PinchFlowLayout</string>
+			<string>h2g2</string>
+		</array>
+	</dict>
+	<key>Program Source Files Info</key>
+	<dict>
+		<key></key>
+		<dict>
+			<key>RootGroupId</key>
+			<string>Collection</string>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ListController Group IsExpanded</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>CollectionController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>CollectionController</string>
+			<key>SourceItemChangeTime</key>
+			<real>434540311.24842501</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>5733</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1580</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>7554</integer>
+			</dict>
+		</dict>
+		<key>CreateController</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>CreateController</string>
+			<key>SourceItemChangeTime</key>
+			<real>434533236.36908501</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>244</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>244</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>LabelCell</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>LabelCell</string>
+			<key>SourceItemChangeTime</key>
+			<real>434536118.93263698</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>3502</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1222</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>PinchFlowLayout</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>PinchFlowLayout</string>
+			<key>SourceItemChangeTime</key>
+			<real>434539717.051615</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>4134</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1558</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>h2g2</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>434533049.165613</real>
+			<key>SourceItemOriginalFilePath</key>
+			<string>h2g2.txt</string>
+			<key>SourceItemUrlBookmark</key>
+			<data>
+			Ym9va7wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAArAIAAAQAAAADAwAAAAMAAAUAAAABAQAAVXNlcnMA
+			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABEZXNrdG9wABMAAAAB
+			AQAAV29yZHNDb2xsZWN0aW9uVHV0bwAIAAAAAQEAAGgyZzIudHh0
+			FAAAAAEGAAAQAAAAIAAAADAAAABAAAAAXAAAAAgAAAAEAwAAWoIC
+			AAAAAAAIAAAABAMAAKhQBgAAAAAACAAAAAQDAAAnUQYAAAAAAAgA
+			AAAEAwAAlvc6AAAAAAAIAAAABAMAALj3OgAAAAAAFAAAAAEGAACI
+			AAAAmAAAAKgAAAC4AAAAyAAAAAgAAAAABAAAQbnlK8UAAAAYAAAA
+			AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAAAwAA
+			AAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vBAAAAAEB
+			AABZb3lvCAAAAAQDAAAAAJq/FAAAAAgAAAAABAAAQbmGL/0AAAAk
+			AAAAAQEAAEM4MTc2RjE5LUQzRDYtMzgzQy1CREIyLUYwQ0RBMTBE
+			N0Y1MBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAA
+			AAEBAAAvAAAAAAAAAAEFAADFAAAAAQIAADRjZWJkOTc0Y2JmNGNh
+			ZjFlYTNiY2IzZDNjNmJkNzE5N2I0Y2YyZDE7MDAwMDAwMDA7MDAw
+			MDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
+			bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAwMDAwNDswMDAw
+			MDAwMDAwM2FmN2I4Oy91c2Vycy9qZWFuLWx1Yy9kZXNrdG9wL3dv
+			cmRzY29sbGVjdGlvbnR1dG8vaDJnMi50eHQAAAAA2AAAAP7///8B
+			AAAAAAAAABEAAAAEEAAAbAAAAAAAAAAFEAAA2AAAAAAAAAAQEAAA
+			BAEAAAAAAABAEAAA9AAAAAAAAAACIAAAyAEAAAAAAAAFIAAAQAEA
+			AAAAAAAQIAAAUAEAAAAAAAARIAAAfAEAAAAAAAASIAAAXAEAAAAA
+			AAATIAAAbAEAAAAAAAAgIAAAqAEAAAAAAAAwIAAA1AEAAAAAAAAB
+			wAAAJAEAAAAAAAARwAAAIAAAAAAAAAASwAAANAEAAAAAAAAQ0AAA
+			BAAAAAAAAACA8AAA3AEAAAAAAAA=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>
