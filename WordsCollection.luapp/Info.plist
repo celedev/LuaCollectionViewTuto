@@ -16,18 +16,18 @@
 			AABAAAAAXAAAAHgAAACIAAAACAAAAAQDAABaggIAAAAAAAgAAAAE
 			AwAAqFAGAAAAAAAIAAAABAMAABxRBgAAAAAACAAAAAQDAAAqUQYA
 			AAAAAAgAAAAEAwAA8icOAAAAAAAIAAAABAMAAPQnDgAAAAAACAAA
-			AAQDAADUFyoAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwB
-			AAAcAQAALAEAAAgAAAAABAAAQbnUcBYAAAAYAAAAAQIAAAIAAAAA
+			AAQDAADSLTwAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwB
+			AAAcAQAALAEAAAgAAAAABAAAQbnq0gEAAAAYAAAAAQIAAAIAAAAA
 			AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAA
 			AwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vBAAAAAEBAABZb3lvCAAA
 			AAQDAAAAAJq/FAAAAAgAAAAABAAAQbmGL/0AAAAkAAAAAQEAAEM4
 			MTc2RjE5LUQzRDYtMzgzQy1CREIyLUYwQ0RBMTBEN0Y1MBgAAAAB
 			AgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
-			AAAAAAEFAADyAAAAAQIAADY1ZGRjNTJhY2I2NjNhYTU0Yzg4NzZm
-			ZGMyZGY4NTIyMDM4MmE1Nzg7MDAwMDAwMDA7MDAwMDAwMDA7MDAw
+			AAAAAAEFAADyAAAAAQIAAGZiMjQyYzJmMjQxNjIxOWUyYTk0MGFj
+			OTZkZWMwZWQ3N2ZiNzljMDA7MDAwMDAwMDA7MDAwMDAwMDA7MDAw
 			MDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNhbmRib3gucmVh
-			ZC13cml0ZTswMDAwMDAwMTswMTAwMDAwNDswMDAwMDAwMDAwMmEx
-			N2Q0Oy91c2Vycy9qZWFuLWx1Yy9saWJyYXJ5L2FwcGxpY2F0aW9u
+			ZC13cml0ZTswMDAwMDAwMTswMTAwMDAwNDswMDAwMDAwMDAwM2My
+			ZGQyOy91c2Vycy9qZWFuLWx1Yy9saWJyYXJ5L2FwcGxpY2F0aW9u
 			IHN1cHBvcnQvY29tLmNlbGVkZXYuY29kZWZsb3cvaXBob25lb3Mv
 			aW9zLTguMC1zZGsubHVhYmluZGluZ3MAAADYAAAA/v///wEAAAAA
 			AAAAEQAAAAQQAACoAAAAAAAAAAUQAAA8AQAAAAAAABAQAABwAQAA
@@ -50,7 +50,7 @@
 	<key>Program Display Info</key>
 	<dict>
 		<key>LuaAppDocument remote Lua service</key>
-		<string>CollectionViewDemo - Collection Control (iPad Celedev 1)</string>
+		<string>CollectionViewTuto - Main Controller (Astérie)</string>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -61,9 +61,9 @@
 			<string>CollectionViewTuto</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
-		<string>CreateController</string>
+		<string>LabelCell</string>
 		<key>LuaAppWindow frame</key>
-		<string>51 112 1262 765 0 0 1440 877 </string>
+		<string>263 234 1129 556 0 0 1440 877 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -83,7 +83,7 @@
 		<key></key>
 		<dict>
 			<key>RootGroupId</key>
-			<string>Collection</string>
+			<string>MainController</string>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ListController Group IsExpanded</key>
@@ -99,37 +99,37 @@
 			<key>Source File Name</key>
 			<string>CollectionController</string>
 			<key>SourceItemChangeTime</key>
-			<real>434540311.24842501</real>
+			<real>435573253.88195902</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>5733</integer>
+				<integer>3141</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1580</integer>
+				<integer>756</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>7554</integer>
+				<integer>8351</integer>
 			</dict>
 		</dict>
 		<key>CreateController</key>
 		<dict>
 			<key>Source File Auto Reload</key>
-			<true/>
+			<false/>
 			<key>Source File Is Start Item</key>
 			<false/>
 			<key>Source File Name</key>
 			<string>CreateController</string>
 			<key>SourceItemChangeTime</key>
-			<real>434533236.36908501</real>
+			<real>434904819.61030602</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>244</integer>
+				<integer>0</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>244</integer>
+				<integer>94</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -143,17 +143,17 @@
 			<key>Source File Name</key>
 			<string>LabelCell</string>
 			<key>SourceItemChangeTime</key>
-			<real>434536118.93263698</real>
+			<real>435573576.861996</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>3502</integer>
+				<integer>3021</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1222</integer>
+				<integer>818</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>2593</integer>
 			</dict>
 		</dict>
 		<key>PinchFlowLayout</key>
@@ -165,52 +165,54 @@
 			<key>Source File Name</key>
 			<string>PinchFlowLayout</string>
 			<key>SourceItemChangeTime</key>
-			<real>434539717.051615</real>
+			<real>435573404.64335001</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>4134</integer>
+				<integer>2902</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1558</integer>
+				<integer>1648</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>2903</integer>
 			</dict>
 		</dict>
 		<key>h2g2</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>434533049.165613</real>
+			<real>434915010.15037203</real>
 			<key>SourceItemOriginalFilePath</key>
 			<string>h2g2.txt</string>
 			<key>SourceItemUrlBookmark</key>
 			<data>
-			Ym9va7wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAArAIAAAQAAAADAwAAAAMAAAUAAAABAQAAVXNlcnMA
-			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABEZXNrdG9wABMAAAAB
-			AQAAV29yZHNDb2xsZWN0aW9uVHV0bwAIAAAAAQEAAGgyZzIudHh0
-			FAAAAAEGAAAQAAAAIAAAADAAAABAAAAAXAAAAAgAAAAEAwAAWoIC
-			AAAAAAAIAAAABAMAAKhQBgAAAAAACAAAAAQDAAAnUQYAAAAAAAgA
-			AAAEAwAAlvc6AAAAAAAIAAAABAMAALj3OgAAAAAAFAAAAAEGAACI
-			AAAAmAAAAKgAAAC4AAAAyAAAAAgAAAAABAAAQbnlK8UAAAAYAAAA
-			AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAAAwAA
-			AAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vBAAAAAEB
-			AABZb3lvCAAAAAQDAAAAAJq/FAAAAAgAAAAABAAAQbmGL/0AAAAk
-			AAAAAQEAAEM4MTc2RjE5LUQzRDYtMzgzQy1CREIyLUYwQ0RBMTBE
-			N0Y1MBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAA
-			AAEBAAAvAAAAAAAAAAEFAADFAAAAAQIAADRjZWJkOTc0Y2JmNGNh
-			ZjFlYTNiY2IzZDNjNmJkNzE5N2I0Y2YyZDE7MDAwMDAwMDA7MDAw
-			MDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNh
-			bmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAwMDAwNDswMDAw
-			MDAwMDAwM2FmN2I4Oy91c2Vycy9qZWFuLWx1Yy9kZXNrdG9wL3dv
-			cmRzY29sbGVjdGlvbnR1dG8vaDJnMi50eHQAAAAA2AAAAP7///8B
-			AAAAAAAAABEAAAAEEAAAbAAAAAAAAAAFEAAA2AAAAAAAAAAQEAAA
-			BAEAAAAAAABAEAAA9AAAAAAAAAACIAAAyAEAAAAAAAAFIAAAQAEA
-			AAAAAAAQIAAAUAEAAAAAAAARIAAAfAEAAAAAAAASIAAAXAEAAAAA
-			AAATIAAAbAEAAAAAAAAgIAAAqAEAAAAAAAAwIAAA1AEAAAAAAAAB
-			wAAAJAEAAAAAAAARwAAAIAAAAAAAAAASwAAANAEAAAAAAAAQ0AAA
-			BAAAAAAAAACA8AAA3AEAAAAAAAA=
+			Ym9vawAEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAA8AIAAAQAAAADAwAAAAMAAAUAAAABAQAAVXNlcnMA
+			AAAIAAAAAQEAAGplYW4tbHVjDQAAAAEBAABEZXZlbG9wcGVtZW50
+			AAAACQAAAAEBAABUdXRvcmlhbHMAAAATAAAAAQEAAFdvcmRzQ29s
+			bGVjdGlvblR1dG8ACAAAAAEBAABoMmcyLnR4dBgAAAABBgAAEAAA
+			ACAAAAAwAAAASAAAAFwAAAB4AAAACAAAAAQDAABaggIAAAAAAAgA
+			AAAEAwAAqFAGAAAAAAAIAAAABAMAAOl+EgAAAAAACAAAAAQDAABA
+			ETsAAAAAAAgAAAAEAwAAlvc6AAAAAAAIAAAABAMAADPsQAAAAAAA
+			GAAAAAEGAACoAAAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAAAAAAQA
+			AEG55SvFAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAA
+			AAAIAAAABAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
+			aWxlOi8vLwQAAAABAQAAWW95bwgAAAAEAwAAAACavxQAAAAIAAAA
+			AAQAAEG5hi/9AAAAJAAAAAEBAABDODE3NkYxOS1EM0Q2LTM4M0Mt
+			QkRCMi1GMENEQTEwRDdGNTAYAAAAAQIAAIEAAAABAAgA7xcAAAEA
+			CAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAA1QAAAAECAABi
+			ZDkwZGQwODM1NGNiYzE1ZGJlNWU2ZjJhYmFlYmIzOTdkMDFkZTA1
+			OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
+			LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7
+			MDEwMDAwMDQ7MDAwMDAwMDAwMDQwZWMzMzsvdXNlcnMvamVhbi1s
+			dWMvZGV2ZWxvcHBlbWVudC90dXRvcmlhbHMvd29yZHNjb2xsZWN0
+			aW9udHV0by9oMmcyLnR4dAAAAADYAAAA/v///wEAAAAAAAAAEQAA
+			AAQQAACIAAAAAAAAAAUQAAAIAQAAAAAAABAQAAA4AQAAAAAAAEAQ
+			AAAoAQAAAAAAAAIgAAD8AQAAAAAAAAUgAAB0AQAAAAAAABAgAACE
+			AQAAAAAAABEgAACwAQAAAAAAABIgAACQAQAAAAAAABMgAACgAQAA
+			AAAAACAgAADcAQAAAAAAADAgAAAIAgAAAAAAAAHAAABYAQAAAAAA
+			ABHAAAAgAAAAAAAAABLAAABoAQAAAAAAABDQAAAEAAAAAAAAAIDw
+			AAAQAgAAAAAAAA==
 			</data>
 		</dict>
 	</dict>

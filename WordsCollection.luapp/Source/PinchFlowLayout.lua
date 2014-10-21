@@ -54,16 +54,9 @@ function PinchFlowLayout:applyPinchToLayoutAttributes (layoutAttributes)
     end
     
     local transform3D = CaTransform3D.Identity
-    
-    --[[ if self._pinchedCellScale then
-        local scale = math.min (self._pinchedCellScale, 8.1)
-        transform3D = CATransform3D.Scale (transform3D, scale, scale, 1)
-    end]]
-    
     if self.rotationAngle ~= nil then
         transform3D = CaTransform3D.Rotate (transform3D, self.rotationAngle, 0, 0, 1)
     end
-    
     layoutAttributes.transform3D = transform3D
 end
 
@@ -79,6 +72,9 @@ function PinchFlowLayout:setPinchCellPath (path)
         invalidateContext.invalidateFlowLayoutDelegateMetrics = false
         invalidateContext:invalidateItemsAtIndexPaths {path}
         self.pinchInvalidationContext = invalidateContext
+        self:invalidateLayoutWithContext (self.pinchInvalidationContext)
+    else
+        self:invalidateLayout()
     end
 end
 

@@ -3,9 +3,9 @@
 local CollectionViewLayout = require "PinchFlowLayout"
 local ViewCellClass        = require "LabelCell"
 
+local UiGestureRecognizer = require "UIKit.UIGestureRecognizer"
 local NsString = require "Foundation.NSString"
 local NsStringAttributes = require "UIKit.NSAttributedString"
-local UiGestureRecognizer = require "UIKit.UIGestureRecognizer"
 
 -----------------------------------------------------------------------
 -- Create the CollectionController class (subclass of UICollectionViewController)
@@ -37,7 +37,7 @@ end
 function CollectionController:configureCollectionView ()
     
     local collectionView = self.collectionView
-    collectionView.collectionViewLayout.itemSize = { width = 100, height = 60 }
+    collectionView.collectionViewLayout.itemSize = { width = 100, height = 44 }
 
     if self.pinchRecognizer == nil then
         -- Create a pinch gesture recognizer
@@ -80,8 +80,7 @@ function CollectionController:collectionView_cellForItemAtIndexPath (collectionV
     cell:setAppearance (cellIndex, baseCellCount)
     
     -- set the cell text (Lua strings will be automatically converted to Objective-C NSString)
-    -- cell.label.text = "• " .. tostring(cellIndex +1)
-    cell.label.text = self.textWords and self.textWords[cellIndex +1] or "??"
+    cell.label.text = self.textWords and self.textWords[cellIndex +1] or ("Yo" .. tostring(cellIndex + 1))
     
     -- and return the cell
     return cell

@@ -1,17 +1,15 @@
 //
 //  main.m
-//  LuaCollectionView
+//  CollectionViewTuto
 //
-//  Created by Jean-Luc on 16/11/12.
-//  Copyright (c) 2012 Jean-Luc Jumpertz. All rights reserved.
+//  Created by Jean-Luc on 13/10/14.
+//  Copyright (c) 2014 Celedev. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
 #import "AppDelegate.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

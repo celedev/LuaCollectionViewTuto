@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>52E5AE0F-658E-4A61-833D-36469254C5E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CollectionViewTuto</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>498156DBABAC8B7A2BBFEFA31CFD991A2532A636</key>
+		<string>https://github.com/celedev/words-collection.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CollectionViewTuto.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>498156DBABAC8B7A2BBFEFA31CFD991A2532A636</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/celedev/words-collection.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>498156DBABAC8B7A2BBFEFA31CFD991A2532A636</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>498156DBABAC8B7A2BBFEFA31CFD991A2532A636</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WordsCollectionTuto</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,5 +1,10 @@
-// AppDelegate.h for a minimal iOS application using Celdev CodeFlow
-// Created by Jean-Luc Jumpertz - Celedev on 29/10/2014
+//
+//  AppDelegate.h
+//  CollectionViewTuto
+//
+//  Created by Jean-Luc on 13/10/14.
+//  Copyright (c) 2014 Celedev. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
@@ -7,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
 @end
+
