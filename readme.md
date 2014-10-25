@@ -1,9 +1,11 @@
-# WordsCollection
+# CollectionViewTuto
 
-Words Collection is a UICollectionView-based CodeFlow tutorial application written entirely in Lua. 
+CollectionViewTuto is the application created in the [CodeFlow tutorial on celedev.com](https://www.celedev.com/tutorial/). 
+
+CollectionViewTuto is a UICollectionView-based CodeFlow application written entirely in Lua. This 
 This application displays the individual words of a text file in a UICollectionView and includes the support for zooming and rotating a word cell.
 
-CollectionViewDemo shows many aspects of the interaction between Lua code and Objective-C in CodeFlow. 
+CollectionViewTuto shows many aspects of the interaction between Lua code and Objective-C in CodeFlow. 
 It also illustrates the use of a text resource from the Lua code in CodeFlow.
 
 ## Configuration required
@@ -14,11 +16,30 @@ An iPhone or iPad, with iOS 8 or later, for running the application (alternative
 
 ## How to use this code sample
 
-1. Open the CodeFlow Program document *WordsCollection.luapp* in **CodeFlow**.
-2. Open the associated Xcode project from the CodeFlow *Program* menu (or open the project directly in Xcode) and run the application on a device or in the simulator.
-3. In **CodeFlow**, select the device running the application in the `Target` popup menu in the toolbar. The app stops on a breakpoint at the first line of the Lua program.
-4. Click on the `Continue` button in the toolbar (or use the **CodeFlow** debugger for stepping in the program) 
-5. Enjoy the power of live coding with **CodeFlow**
+1. Open the CodeFlow project for this sample application.  
+  This will automatically update the associated Xcode project, so that paths and other build settings are correctly set for your environment.
+
+2. Open the associated Xcode project. You can do this in CodeFlow with the menu command `Program -> Open Xcode Project`.
+
+3. Run the application on a device or in the simulator.
+
+4. In CodeFlow, select the application in the `Target` popup menu in the project window toolbar. The app stops on a breakpoint at the first line of the Lua program.
+
+5. Click on the `Continue` button in the toolbar (or use the CodeFlow debugger for stepping in the program) 
+
+6. Enjoy the power of live coding with CodeFlow
+
+## Troubleshooting
+
+- **Some libraries / header files in the sample app Xcode project are missing**
+
+  **⇒ Fix**: open the corresponding CodeFlow project, and CodeFlow will update the associated Xcode project, so that paths and libraries are correctly set.
+
+- **Link errors (missing symbols) occur when I compile the Xcode project**
+
+  **Most probable cause**: if you are using Xcode 5 (and thus iOS 7.1 SDK), these errors occur because the sample app is configured for the iOS 8 SDK.
+
+  **⇒ Fix**: this application requires iOS 8, so you have to run it only from Xcode 6 or later.
 
 ## License
 
