@@ -111,7 +111,7 @@ CollectionController:publishObjcProtocols ("UICollectionViewDelegateFlowLayout")
 -- Resource setters
 
 function CollectionController:setCollectionText(text)
-    local fullRange = { location = 0, length = text.length }
+    local fullRange = struct.NSRange(0, text.length)
     local words = {}
     local wordsCount = 0
     text:enumerateSubstringsInRange_options_usingBlock (fullRange, NsString.EnumerationOptions.ByWords, 
