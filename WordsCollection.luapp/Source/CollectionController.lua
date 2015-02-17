@@ -37,7 +37,7 @@ end
 function CollectionController:configureCollectionView ()
     
     local collectionView = self.collectionView
-    collectionView.collectionViewLayout.itemSize = { width = 100, height = 44 }
+    collectionView.collectionViewLayout.itemSize = { width = 100, height = 54 }
 
     if self.pinchRecognizer == nil then
         -- Create a pinch gesture recognizer
@@ -97,7 +97,7 @@ function CollectionController:collectionView_layout_sizeForItemAtIndexPath(colle
         local cellLabelSize = self.textWords[cellIndex]:sizeWithAttributes 
                               { [NsStringAttributes.NSFontAttributeName] = cellFont } -- iOS 8
         -- local cellLabelSize = self.textWords[cellIndex +1]:sizeWithFont (cellFont) -- iOS 6-7
-        cellSize = { width = cellLabelSize.width + 30, height = layout.itemSize.height }
+        cellSize = struct.CGSize(cellLabelSize.width + 30, layout.itemSize.height)
     else
         cellSize = layout.itemSize
     end

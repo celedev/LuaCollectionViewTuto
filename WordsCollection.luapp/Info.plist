@@ -13,8 +13,6 @@
 	</array>
 	<key>Program Display Info</key>
 	<dict>
-		<key>LuaAppDocument remote Lua service</key>
-		<string>CollectionViewTuto - Main Controller (Astérie)</string>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -25,9 +23,9 @@
 			<string>CollectionViewTuto</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
-		<string>CollectionController</string>
+		<string>PinchFlowLayout</string>
 		<key>LuaAppWindow frame</key>
-		<string>1018 735 1129 556 0 0 2560 1417 </string>
+		<string>942 752 1129 596 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -65,17 +63,17 @@
 			<key>Source File Name</key>
 			<string>CollectionController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440448636.93181098</real>
+			<real>445854828.65037602</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>4439</integer>
+				<integer>0</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1143</integer>
+				<integer>1009</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>3297</integer>
+				<integer>361</integer>
 			</dict>
 		</dict>
 		<key>CreateController</key>
@@ -115,11 +113,11 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>3021</integer>
+				<integer>0</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>818</integer>
+				<integer>753</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>2593</integer>
+				<integer>469</integer>
 			</dict>
 		</dict>
 		<key>PinchFlowLayout</key>
@@ -131,15 +129,15 @@
 			<key>Source File Name</key>
 			<string>PinchFlowLayout</string>
 			<key>SourceItemChangeTime</key>
-			<real>435573404.64335001</real>
+			<real>445855119.82677501</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>2902</integer>
+				<integer>357</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1062</integer>
+				<integer>1107</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -168,8 +166,8 @@
 			AE1hY2ludG9zaCBIRAgAAAAEAwAAAABGpwMBAAAIAAAAAAQAAEG4
 			Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJBOS0y
 			MTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAA
-			AAAAAAEAAAABAQAALwAAAAAAAAABBQAA+AAAAAECAABkM2JkOGE3
-			YjdlMGQ0NDc3NjJkOTgzNTczY2M2MmFiM2QwY2IwYmI1OzAwMDAw
+			AAAAAAEAAAABAQAALwAAAAAAAAABBQAA+AAAAAECAAAxMmQwNjkw
+			Yjk5YjllYWM1YjkyMmMyNDEwY2MxY2JkYWUwNzM0NTUyOzAwMDAw
 			MDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxl
 			LmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MDEwMDAw
 			MDg7MDAwMDAwMDAwMDlmOGZhZTsvdXNlcnMvamVhbi1sdWMvZGV2

@@ -10,7 +10,7 @@ It also illustrates the use of a text resource from the Lua code in CodeFlow.
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.9 or later.
+A Mac with Celedev CodeFlow version 0.9.11 or later.
 
 An iPhone or iPad, with iOS 8 or later, for running the application (alternatively you can use the Xcode simulator).
 
@@ -45,7 +45,7 @@ An iPhone or iPad, with iOS 8 or later, for running the application (alternative
 
 This application is provided under the MIT License (MIT)
 
-Copyright (c) 2014 Celedev.
+Copyright (c) 2014-2015 Celedev.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
