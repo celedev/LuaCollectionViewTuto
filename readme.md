@@ -10,7 +10,7 @@ It also illustrates the use of a text resource from the Lua code in CodeFlow.
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.15 or later.
+A Mac with Celedev CodeFlow version 0.9.18 or later and Xcode 6.2 or later.
 
 An iPhone or iPad, with iOS 8 or later, for running the application (alternatively you can use the Xcode simulator).
 
@@ -34,12 +34,6 @@ An iPhone or iPad, with iOS 8 or later, for running the application (alternative
 - **Some libraries / header files in the sample app Xcode project are missing**
 
   **⇒ Fix**: open the corresponding CodeFlow project, and CodeFlow will update the associated Xcode project, so that paths and libraries are correctly set.
-
-- **Link errors (missing symbols) occur when I compile the Xcode project**
-
-  **Most probable cause**: if you are using Xcode 5 (and thus iOS 7.1 SDK), these errors occur because the sample app is configured for the iOS 8 SDK.
-
-  **⇒ Fix**: this application requires iOS 8, so you have to run it only from Xcode 6 or later.
 
 ## License
 
