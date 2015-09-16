@@ -7,12 +7,12 @@
 	<key>id</key>
 	<string>CollectionViewTuto</string>
 	<key>indexFormat</key>
-	<string>0.2</string>
+	<string>0.3</string>
 	<key>protocols</key>
 	<dict/>
 	<key>structs</key>
 	<dict/>
 	<key>version</key>
-	<string>2</string>
+	<string>3</string>
 </dict>
 </plist>

@@ -114,7 +114,7 @@ function CollectionController:setCollectionText(text)
     local fullRange = struct.NSRange(0, text.length)
     local words = {}
     local wordsCount = 0
-    text:enumerateSubstringsInRange_options_usingBlock (fullRange, NsString.EnumerationOptions.ByWords, 
+    text:enumerateSubstringsInRange_options_usingBlock (fullRange, NsString.Enumeration.ByWords, 
                                                         function(word) 
                                                             wordsCount = wordsCount + 1
                                                             words[wordsCount] = word

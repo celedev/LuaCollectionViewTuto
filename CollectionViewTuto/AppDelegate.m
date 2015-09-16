@@ -11,6 +11,9 @@
 #import "CIMLua/CIMLua.h"
 #import "CIMLua/CIMLuaContextMonitor.h"
 
+@interface DefautRootViewController : UIViewController
+@end
+
 @interface AppDelegate ()
 {
     CIMLuaContext* _luaContext;
@@ -30,6 +33,7 @@
     // Create the application window (standard stuff)
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [DefautRootViewController new];
     
     // Run the Lua module that creates the root view controller
     [_luaContext loadLuaModuleNamed:@"CreateController" withCompletionBlock:^(id result) {
@@ -43,6 +47,18 @@
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+@end
+
+@implementation DefautRootViewController
+
+- (void) loadView 
+{
+    UIView* defaultRootView = [UIView new];
+    defaultRootView.backgroundColor = UIColor.whiteColor;
+    
+    self.view = defaultRootView;
 }
 
 @end

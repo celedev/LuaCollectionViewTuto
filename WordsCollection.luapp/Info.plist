@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.3</string>
+			<string>apple_sdk_iphoneos9.0</string>
 			<key>LibName</key>
 			<string>iOS</string>
 		</dict>
@@ -15,9 +15,14 @@
 			<string>SelfGeneratedBindingsLib</string>
 			<key>CustomBindingsLibBindingsSourcePath</key>
 			<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/CollectionViewTuto/CollectionViewTuto.xcodeproj</string>
+			<key>CustomBindingsLibCompilationOptions</key>
+			<array>
+				<string>-fembed-bitcode</string>
+			</array>
 			<key>CustomBindingsLibHeadersParsingOptions</key>
 			<array>
 				<string>-fobjc-arc</string>
+				<string>-fmodules</string>
 			</array>
 			<key>CustomBindingsLibHeadersSearchPaths</key>
 			<array>
@@ -25,7 +30,9 @@
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-05-20T16:06:06Z</date>
+			<date>2015-09-16T08:40:00Z</date>
+			<key>CustomBindingsLibPlatformSdkName</key>
+			<string>iphoneos9.0</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
 			YnBsaXN0MDDUAQIDBAUGVldYJHZlcnNpb25YJG9iamVjdHNZJGFy
@@ -64,46 +71,6 @@
 				<key>targetType</key>
 				<string>com.apple.product-type.application</string>
 			</dict>
-			<key>LibBookmark</key>
-			<data>
-			Ym9va/QEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAA5AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
-			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
-			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAAQUIzREQ4NDItMTczRC00
-			MDRCLUIzQjEtNDdFQUY4REEzNDA2DAAAAAEBAABFeHRlcm5hbExp
-			YnMeAAAAAQEAAENvbGxlY3Rpb25WaWV3VHV0by5sdWFiaW5kaW5n
-			cwAAJAAAAAEGAAAQAAAAIAAAADAAAABAAAAAUAAAAGwAAAB8AAAA
-			qAAAALwAAAAIAAAABAMAAHxkAgAAAAAACAAAAAQDAADDe04AAAAA
-			AAgAAAAEAwAAOHxOAAAAAAAIAAAABAMAAG58TgAAAAAACAAAAAQD
-			AADxT5ABAAAAAAgAAAAEAwAA93eQAQAAAAAIAAAABAMAABR/kAEA
-			AAAACAAAAAQDAAAVf5ABAAAAAAgAAAAEAwAAFn+QAQAAAAAkAAAA
-			AQYAABABAAAgAQAAMAEAAEABAABQAQAAYAEAAHABAACAAQAAkAEA
-			AAgAAAAABAAAQbsM6GEAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAA
-			AAAAAAAAAAAAAAgAAAAEAwAABwAAAAAAAAAEAAAAAwMAAPcBAAAI
-			AAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAA
-			BAMAAAAARqcDAQAACAAAAAAEAABBuCL/wAAAACQAAAABAQAAMUJC
-			MzRCOEEtN0Y1OS0zQzI5LTlCQTktMjEzQUU4NDkzODZFGAAAAAEC
-			AACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAA
-			AAAAAQUAAB4BAAABAgAAOGViZjBkMmY0NDBlOWNmNmQwYzNhODc1
-			MWIzNzY2YzA2ZTA5N2EyMzswMDAwMDAwMDswMDAwMDAwMDswMDAw
-			MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFk
-			LXdyaXRlOzAwMDAwMDAxOzAxMDAwMDA4OzAwMDAwMDAwMDE5MDdm
-			MTY7L3VzZXJzL2plYW4tbHVjL2xpYnJhcnkvY2FjaGVzL2NvbS5j
-			ZWxlZGV2LmNvZGVmbG93L3Byb2dyYW1zL2FiM2RkODQyLTE3M2Qt
-			NDA0Yi1iM2IxLTQ3ZWFmOGRhMzQwNi9leHRlcm5hbGxpYnMvY29s
-			bGVjdGlvbnZpZXd0dXRvLmx1YWJpbmRpbmdzAAAA2AAAAP7///8B
-			AAAAAAAAABEAAAAEEAAA5AAAAAAAAAAFEAAAoAEAAAAAAAAQEAAA
-			3AEAAAAAAABAEAAAzAEAAAAAAAACIAAAqAIAAAAAAAAFIAAAGAIA
-			AAAAAAAQIAAAKAIAAAAAAAARIAAAXAIAAAAAAAASIAAAPAIAAAAA
-			AAATIAAATAIAAAAAAAAgIAAAiAIAAAAAAAAwIAAAtAIAAAAAAAAB
-			wAAA/AEAAAAAAAARwAAAIAAAAAAAAAASwAAADAIAAAAAAAAQ0AAA
-			BAAAAAAAAACA8AAAvAIAAAAAAAA=
-			</data>
-			<key>LibName</key>
-			<string>CollectionViewTuto</string>
-			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/AB3DD842-173D-404B-B3B1-47EAF8DA3406/ExternalLibs/CollectionViewTuto.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
@@ -122,7 +89,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>CreateController</string>
 		<key>LuaAppWindow frame</key>
-		<string>993 595 1129 596 0 0 2560 1417 </string>
+		<string>1299 749 1129 596 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -155,10 +122,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>CollectionController</string>
 			<key>SourceItemChangeTime</key>
 			<real>445854828.65037602</real>
 			<key>SourceItemDisplayInfo</key>
@@ -175,34 +138,13 @@
 		</dict>
 		<key>CreateController</key>
 		<dict>
-			<key>Source File Auto Reload</key>
-			<false/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>CreateController</string>
 			<key>SourceItemChangeTime</key>
 			<real>434904819.61030602</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>SrcEditor Selected Length</key>
-				<integer>0</integer>
-				<key>SrcEditor Selected Location</key>
-				<integer>0</integer>
-				<key>SrcEditor Visible Length</key>
-				<integer>94</integer>
-				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<key>LabelCell</key>
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>LabelCell</string>
 			<key>SourceItemChangeTime</key>
 			<real>435573576.861996</real>
 			<key>SourceItemDisplayInfo</key>
@@ -221,10 +163,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>PinchFlowLayout</string>
 			<key>SourceItemChangeTime</key>
 			<real>445855119.82677501</real>
 			<key>SourceItemDisplayInfo</key>
@@ -258,9 +196,9 @@
 			CAAAAAQDAAAEFgEAAAAAABgAAAABBgAAuAAAAMgAAADYAAAA6AAA
 			APgAAAAIAQAACAAAAAAEAABBufxIpgAAABgAAAABAgAAAQAAAAAA
 			AAAPAAAAAAAAAAAAAAAAAAAAFgAAAAEJAABmaWxlOi8vL1ZvbHVt
-			ZXMvQnJ1bWUvAAAIAAAABAMAAADAHdIFAAAACAAAAAAEAABBuuod
-			4QAAACQAAAABAQAAQ0IyMzVGMUQtOTYyMi0zMENDLUEzMDgtQzM1
-			RDhBRDNFN0Q2GAAAAAECAAABAQAAAQAIAO8XAAABAAgAAAAAAAAA
+			ZXMvQnJ1bWUvAAAIAAAABAMAAABQoacLAAAACAAAAAAEAABBuuod
+			4QAAACQAAAABAQAAMzc0MEEyQUItN0EyRi0zRjE3LThEQ0MtNTI0
+			OTM2NkFGOTREGAAAAAECAAABAQAAAQAIAO8XAAABAAgAAAAAAAAA
 			AAAOAAAAAQEAAC9Wb2x1bWVzL0JydW1lAAAIAAAAAQkAAGZpbGU6
 			Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAARqcDAQAA
 			CAAAAAAEAABBuCL/wAAAACQAAAABAQAAMUJCMzRCOEEtN0Y1OS0z
@@ -270,10 +208,10 @@
 			AAAAABEgAABQAgAAAAAAABIgAAAwAgAAAAAAABMgAABAAgAAAAAA
 			ACAgAAB8AgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQA
 			AAADAwAAAQAAABwAAAABBgAAEAMAABwDAAAoAwAAHAMAABwDAAAc
-			AwAAHAMAAOkAAAABAgAAMDAyOWEzMDI2NmZlOWRmZDRmYjAzMjU3
-			OWQ4MmZlYzZmM2Q4NGRlODswMDAwMDAwMDswMDAwMDAwMDswMDAw
+			AwAAHAMAAOkAAAABAgAAZGYwNzhmNTQ5ZjI0MzVmZWE4NzZiMzI2
+			MWY1MDZlN2Y1Yjk2NjhjMDswMDAwMDAwMDswMDAwMDAwMDswMDAw
 			MDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFk
-			LXdyaXRlOzAwMDAwMDAxOzAxMDAwMDBlOzAwMDAwMDAwMDAwMTE2
+			LXdyaXRlOzAwMDAwMDAxOzAxMDAwMDBkOzAwMDAwMDAwMDAwMTE2
 			MDQ7L3ZvbHVtZXMvYnJ1bWUvY2VsZWRldiBjb2RlZmxvdy9jb2Rl
 			ZmxvdyBzYW1wbGUgYXBwbGljYXRpb25zL2NvbGxlY3Rpb252aWV3
 			dHV0by9oMmcyLnR4dAAAAAC0AAAA/v///wEAAACoAgAADgAAAAQQ
